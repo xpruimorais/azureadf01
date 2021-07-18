@@ -1,0 +1,17 @@
+{
+	"name": "Oracle",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "Oracle1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "OracleTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "REDADMIN",
+			"table": "EXAMPLE01"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

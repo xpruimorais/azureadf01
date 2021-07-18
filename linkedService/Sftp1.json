@@ -1,0 +1,27 @@
+{
+	"name": "Sftp1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "Sftp",
+		"typeProperties": {
+			"host": "180.31.238.167",
+			"port": 22,
+			"skipHostKeyValidation": true,
+			"authenticationType": "Basic",
+			"userName": "redsftpuser",
+			"password": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "AzureKeyVault1",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "redsftpcredencial01"
+			}
+		},
+		"connectVia": {
+			"referenceName": "selfhosted01",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
