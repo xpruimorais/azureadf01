@@ -1,0 +1,9 @@
+{
+	"name": "reddatafactory01",
+	"location": "westeurope",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "d3e669f6-8203-4339-b013-2206991bcaa8",
+		"tenantId": "d6116112-786c-4102-8fa9-ed8eceb61a77"
+	}
+}
