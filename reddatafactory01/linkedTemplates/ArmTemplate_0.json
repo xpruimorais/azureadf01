@@ -312,11 +312,11 @@
 						"userProperties": [
 							{
 								"name": "Source",
-								"value": "/home/redsftpuser/file01"
+								"value": "/home/redsftpuser/sftp/"
 							},
 							{
 								"name": "Destination",
-								"value": "adlsroot//output01"
+								"value": "datalake/raw/"
 							}
 						],
 						"typeProperties": {
