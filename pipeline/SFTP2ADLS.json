@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "Copy_ur8",
+				"name": "Copy SFTP to ADLS",
 				"type": "Copy",
 				"dependsOn": [],
 				"policy": {
@@ -28,7 +28,7 @@
 						"type": "DelimitedTextSource",
 						"storeSettings": {
 							"type": "SftpReadSettings",
-							"recursive": true,
+							"fileListPath": "/home/redsftpuser/list",
 							"enablePartitionDiscovery": false
 						},
 						"formatSettings": {
@@ -39,8 +39,7 @@
 					"sink": {
 						"type": "DelimitedTextSink",
 						"storeSettings": {
-							"type": "AzureBlobFSWriteSettings",
-							"copyBehavior": "PreserveHierarchy"
+							"type": "AzureBlobFSWriteSettings"
 						},
 						"formatSettings": {
 							"type": "DelimitedTextWriteSettings",

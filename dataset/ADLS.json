@@ -10,8 +10,8 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"folderPath": "f01",
-				"fileSystem": "adlsroot"
+				"folderPath": "raw",
+				"fileSystem": "datalake"
 			},
 			"columnDelimiter": ";",
 			"rowDelimiter": "\n",
