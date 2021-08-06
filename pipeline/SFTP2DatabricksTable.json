@@ -91,7 +91,7 @@
 										"type": "SftpReadSettings",
 										"recursive": true,
 										"wildcardFileName": {
-											"value": "activity('Get only CSV').output.Value.name",
+											"value": "item()",
 											"type": "Expression"
 										},
 										"enablePartitionDiscovery": false
